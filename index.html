@@ -1,0 +1,54 @@
+<!-- [ Un projet terminé à 70% ] -->
+<!-- [ Version Française à venir (changement de langue par un bouton) ] -->
+<!-- [ Framework appelé mais inutilisé pour l'instant (je ferai mes boutons en PureCSS) ] -->
+<!-- [ Responsive terminé à 90% ] -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- TITLE -->
+  <title>XANTIPPE</title>
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:wght@100&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="vue/indexstyle.css">
+
+</head>
+<body>
+
+<!-- button -->
+<button id="enter">ENTER
+</button>
+
+<!-- audio -->
+<div id="player">
+<audio autoplay id="music" src="assets/msc/redgiant.mp3"></audio>
+    <button id="play">Play</button>
+    <button id="pause">Pause</button>
+</div>
+
+<!-- mentions -->
+<div id="tools">
+  <p>Portfolio built and designed by myself, with ThreeJS & PureCSS.</p>
+</div>
+
+<div id="credits">
+    <p>Music : <b><a class="link" href="https://freemusicarchive.org/music/Stellardrone/Light_Years_1227/01_Red_Giant">Red Giant</a></b> by <b>Stellardrone</b>.</p>
+</div>
+
+<div id="description1">
+    <p>creative & versatile</p>
+</div>
+
+<div id="description2">
+    <p>web developer</p>
+</div>
+
+<!-- scripts -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js'></script>
+<script src="vue/indexthree.js"></script>
+<script src="controller/indexbuttons.js"></script>
+</body>
+</html>

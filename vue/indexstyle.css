@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  cursor: url("https://i.ibb.co/NrPnjFB/cursordefault.png"), default;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#enter{
+  position: absolute;
+  top: 82%;
+  left: 48.5%;
+  width: 80px;
+  height: 30px;
+  z-index: 100;
+  border-radius: 10%;
+  background-color: transparent;
+  border-color: black;
+  color: #259e9e;
+  font-family: "Krona One", serif;
+  cursor: url("https://i.ibb.co/MpxCMnK/cursorpointer.png"), pointer;
+}
+#enter:hover {
+  position: absolute;
+  top: 82%;
+  left: 48.5%;
+  width: 80px;
+  height: 30px;
+  z-index: 100;
+  border-radius: 10%;
+  background-color: transparent;
+  border-color: black;
+  color: #801f54;
+  font-family: "Krona One", serif;
+  cursor: url("https://i.ibb.co/MpxCMnK/cursorpointer.png"), pointer;
+}
+#tools {
+  position: absolute;
+  color: #259e9e;
+  font-family: "Krona One", "serif";
+  font-size: 10px;
+  bottom: 2vw;
+  left: 3vw;
+}
+#credits {
+  position: absolute;
+  color: #259e9e;
+  font-family: "Krona One", "serif";
+  font-size: 10px;
+  bottom: 2vw;
+  right: 3vw;
+}
+a {
+  color: #801f54;
+}
+#description1 {
+  position: absolute;
+  color: black;
+  font-family: "Krona One", "serif";
+  font-style: italic;
+  font-size: 22px;
+  bottom: 21vw;
+  left: 43vw;
+}
+#description2 {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.67);
+  font-family: "Krona One", "serif";
+  font-style: italic;
+  font-size: 22px;
+  bottom: 20vw;
+  left: 44.7vw;
+}
+
+/* player */
+
+#play {
+  position: absolute;
+  display: none;
+}
+#pause {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-image: url("https://i.ibb.co/g9kgNGV/noaudio.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 110%;
+  color: transparent;
+}
+#pause:hover{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-image: url("https://i.ibb.co/rwnbyvg/noaudio.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 110%;
+  color: transparent;
+  cursor: url("https://i.ibb.co/MpxCMnK/cursorpointer.png"), pointer;
+}
+#volume-up {
+  position: absolute;
+  display: none;
+}
+#volume-down {
+  position: absolute;
+  display: none;
+}

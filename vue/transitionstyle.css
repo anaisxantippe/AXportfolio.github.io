@@ -1,0 +1,14 @@
+body {
+    background: black url("https://media.giphy.com/media/l1KcPucXCirCo2zFm/source.gif") no-repeat center;
+    background-size: 45vw;
+    background-position-y: 5vw;
+}
+
+#tools {
+    position: absolute;
+    color: #259e9e;
+    font-family: "Krona One", "serif";
+    font-size: 10px;
+    bottom: 1.5vw;
+    left: 3vw;
+}
